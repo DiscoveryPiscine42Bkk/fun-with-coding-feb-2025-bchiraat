@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg1 {
+    background-image: url('https://i.ytimg.com/vi/SY8My9VSxdY/hqdefault.jpg');
+}
+
+.bg2 {
+    background-image: url('https://static.tvtropes.org/pmwiki/pub/images/11fbb437_bb86_43cf_b54c_75587a77da78.jpeg');
+}
+
+.text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.content {
+    height: 50vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+}
